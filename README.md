@@ -29,7 +29,7 @@ npm run dev
 
 Luego abrí en el navegador la dirección que indique Vite, normalmente `http://localhost:5173/`.
 
-En caso de hacerlo en celular hacelo desde esta url: `https://sixty-wasps-kiss.loca.lt/`.
+En caso de hacerlo en celular hacelo desde esta url: `[https://sixty-wasps-kiss.loca.lt/](https://torre-crece-3ds.loca.lt)`.
 
 ## 5. Qué dirigí yo y qué error encontré probando
 
