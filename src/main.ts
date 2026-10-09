@@ -234,7 +234,7 @@ contenedor.addEventListener('click', (evento: MouseEvent) => {
     return;
   }
 
-  if (estado.fase === 'jugando') {
+  if (campo.contains(objetivo) && estado.fase === 'jugando') {
     soltar(estado);
     dibujar();
   }
@@ -242,6 +242,10 @@ contenedor.addEventListener('click', (evento: MouseEvent) => {
 
 document.addEventListener('keydown', (evento: KeyboardEvent) => {
   if (evento.code !== 'Space' || evento.repeat) {
+    return;
+  }
+
+  if (evento.target instanceof HTMLButtonElement) {
     return;
   }
 
