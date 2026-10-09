@@ -32,8 +32,8 @@ contenedor.innerHTML = `
   <main class="juego">
     <header class="encabezado">
       <div class="marca">
-        <p class="sobre-titulo">RETO DE PRECISIÓN</p>
-        <h1>TORRE <span>QUE CRECE</span></h1>
+        <p class="sobre-titulo">RETO DE PRECISIÓN - TORRE QUE CRECE</p>
+        <h1>STACK TOWER<span>DELUXE</span></h1>
       </div>
       <div class="marcadores" aria-live="polite">
         <div class="marcador">
